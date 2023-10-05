@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+}
+.nav{
+    background-color: #00050d;
+    width:700px;
+    height: 35px;
+    display: flex;
+    color:lightgrey;
+   border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5px;
+    position: sticky;
+    top: 0;
+}
+.icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+}
+.svg{
+    height: 28px;
+    width: 28px;
+}
+
+.menu .m{
+    text-decoration: none;
+    color: lightgrey;
+    margin-left: 12px;
+    font-size: 18px;
+
+}
+.logo{
+    color: white;
+    font-size: 18px;
+    padding:4px 5px;
+    font-weight: bold;
+}
+.btn{
+    
+    padding:5px 10px;
+    color:lightgray;
+    border-radius: 12px;
+    margin: 0 4px;
+}
+.p{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.bg-left-container{
+    background-image: linear-gradient( to right,rgba(0,0,0,1)  20% ,transparent 40% ),linear-gradient(to top,rgba(0,0,0,0.9)  10% ,transparent 50% ),url(background.jpg);
+    /* background-image: linear-gradient(to right, black 50%, white); */
+    /* background-image: linear-gradient(to top,rgba(0,0,0,1)  8% ,transparent 92% ); */
+   /* background-image: transparent; */
+   
+    width:50%;
+    height: 500px;
+    border: 2px solid black;
+    margin-right: 4px;
+    background-size: 100% 100%;
+    background-position: center;
+
+  /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)  8% ,transparent 50%) ; */
+
+/* background: linear-gradient(to bottom,rgba(0,0,0,0.5) 50%,transparent 100%); */
+
+}
+.bg-right-container{
+    /* border:2px solid red; */
+    width: 200px;
+}
+.bg1-container{
+    display: flex;
+    /* border:2px solid red; */
+    background-color: #00050d;
+    height: 600px;
+    z-index: 1;
+    /* position: relative; */
+    
+}
+
+.bg-right-container-img{
+    width: 200px;
+    height: 170px;
+    border-radius: 6px;
+object-fit:fill;
+}
+.nav-container{
+    
+    background-color: black;
+    
+}
+.bg-left-container-content{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    top:0;
+    margin-left: 40px;
+    z-index: 1;
+    letter-spacing: 1px;
+ 
+    
+}
+.bg-container-heading{
+    font-family:  sans-serif;
+    font-size: 44.8px;
+    font-weight:lighter;
+    /* font-family: "https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Lt.woff"; */
+}
+.bg-container-para{
+    font-size: 1.5rem;
+    width: 500.59px;
+    font-family:  sans-serif;
+   margin-top: 12px;
+   line-height: 1.3;
+   letter-spacing: 1px;
+   font-weight: lighter;
+}
+.overlay{
+    width: 50%;
+    margin-left: 0;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.bg-left-container-conten-btn{
+    padding: 14px 20px;
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    color: #FFFF;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    border:none;
+    margin-top: 8px;
+    text-align: left;
+    border-radius: 4px;
+    text-align: center;
+
+}
+.bg-left-container-content-container{
+    width:85% ;
+    display: flex;
+    position: relative;
+    
+}
+.black-box{
+    width: 50%;
+    margin-right: 0;
+}
+.bg2-container{
+ 
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(2nd-container.jpg);
+height: 480px;
+background-size: 100% 100%;
+background-position: left top;
+position: relative;
+z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+.bg2-container-content{
+    background-repeat: no-repeat;
+    width: 480px;
+    background-size: cover;
+    clear: both;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 80px;
+    padding-right: 0;
+    padding-left: 55%;
+    line-height: 1.3;
+    font-family:   sans-serif;
+    text-align: left;
+}
+.bg2-container-content h1{
+    /* width: 300px; */
+    font-weight: lighter;
+    color: #fff;
+    /* line-height: 1.2!important; */
+    font-size: 42px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.2!important;
+    letter-spacing: 1px;
+
+}
+.bg2-container-content p{
+    padding: 5% 0;
+    font-weight: lighter;
+    margin: auto;
+    line-height: 1.3;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.3;
+
+}
+.bg2-container-content button{
+    padding: 14px 20px;
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    color: #FFFF;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    border:none;
+    margin-top: 18px;
+    text-align: left;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bg3-container{
+    width: 933.33px;
+    height: 535.76px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+.bg3-container-right{
+    width:630px;
+    height: 500.76px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+    margin: 2px;
+    /* border: 2px solid red;; */
+    
+    
+}
+.bg3-container-left{
+    width:500px;
+    height: 500.76px;
+
+    
+}
+.bg3-container-content{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500.56px;
+    text-align: left;
+    color: #000000;
+}
+.bg3-container-left h1{
+    font-size: 42px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    
+   
+}
+.bg3-container-left p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 22px;
+    text-align: start;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    
+}
+.bg3-container-left-content{
+    margin-left: -60px;
+    margin-right: 40px;
+    margin-top: 24px;
+    text-align: left;
+
+
+}
+.bg3-icon{
+    margin: 3px;
+    width: 178.84px;
+    height: 123.43px;
+    object-fit: contain;
+    cursor: pointer;
+    
+}
+.bg3-icon:hover{
+    box-shadow: 1px 1px 5px 5px #3e3d3d;
+
+}
+.bg4-container{
+    background-image: url("MLP_Template_Image_Left.jpg");
+    
+        height: 535.76px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-size: 100% 100%;
+        position: relative;
+    
+}
+.bg4-container-right-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 480px;
+    color: white;
+    font-family: sans-serif;
+    margin-top:35px ;
+    margin-right: 50px;
+
+}
+.bg4-container-right-content h1{
+    font-size: 42px;
+    /* margin-top: 14px; */
+
+    font-weight: lighter;
+}
+.bg4-container-right-content p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 26px 0;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.bg4-container-right-content button{
+    padding: 18px 20px;
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    color: #FFFF;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    border:none;
+    margin-top: 8px;
+    text-align: left;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.bg5-container{
+    background-image: url("IN-kids-30Jan._CB1517304519_.jpg");
+ height: 480px;
+ background-size: 100% 100%;
+ position: relative;
+}
+.bg5-container-container-left {
+font-family: sans-serif;
+width: 490px;
+margin-top: 24px;
+position: absolute;
+top: 0;
+left: 0;
+color: white;
+margin-left: 60px;
+text-align: start;
+
+}
+.bg5-container-container-left h1{
+    font-size: 42px;
+    font-family: sans-serif;
+
+    font-weight: lighter;   
+}
+.bg5-container-container-left p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 26px 0;
+    letter-spacing: 1px;    
+    line-height: 1.3;
+}
+.bg5-container-container-left button{
+    padding: 18px 20px;
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    color: #FFFF;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    border:none;
+    margin-top: 8px;
+    text-align: left;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;   
+}
+footer{
+    height: 121.58px;
+    background-color: #222222;
+}
+.footer-container{
+    width: 376.68px;
+    text-align: center;
+    margin:0 auto;
+    padding: 24px;
+
+}
+.footer-container a{
+    color:  #0f79af;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;    
+    line-height: 1.3;
+}
+.footer-container p{
+    color: #949494;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 1px;    
+    line-height: 1.3;
+}
