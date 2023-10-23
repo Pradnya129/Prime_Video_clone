@@ -52,7 +52,7 @@
     margin-right: 8px;
 }
 .bg-left-container{
-    background-image: linear-gradient( to right,rgba(0,0,0,1)  20% ,transparent 40% ),linear-gradient(to top,rgba(0,0,0,0.9)  10% ,transparent 50% ),url(background.jpg);
+    background-image: linear-gradient( to right,rgba(0,0,0,1)  20% ,transparent 40% ),linear-gradient(to top,rgba(0,0,0,0.9)  10% ,transparent 50% ),url(img/background.jpg);
     /* background-image: linear-gradient(to right, black 50%, white); */
     /* background-image: linear-gradient(to top,rgba(0,0,0,1)  8% ,transparent 92% ); */
    /* background-image: transparent; */
@@ -154,7 +154,7 @@ object-fit:fill;
 }
 .bg2-container{
  
-    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(2nd-container.jpg);
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(img/2nd-container.jpg);
 height: 480px;
 background-size: 100% 100%;
 background-position: left top;
@@ -292,7 +292,7 @@ z-index: 1;
 
 }
 .bg4-container{
-    background-image: url("MLP_Template_Image_Left.jpg");
+    background-image: url("img/MLP_Template_Image_Left.jpg");
     
         height: 535.76px;
         margin: 0 auto;
@@ -344,7 +344,7 @@ z-index: 1;
     cursor: pointer;
 }
 .bg5-container{
-    background-image: url("IN-kids-30Jan._CB1517304519_.jpg");
+    background-image: url("img/IN-kids-30Jan._CB1517304519_.jpg");
  height: 480px;
  background-size: 100% 100%;
  position: relative;
